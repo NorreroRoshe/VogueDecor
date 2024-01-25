@@ -1,0 +1,155 @@
+.section_constact {
+  margin-top: 100px;
+  .container {
+    max-width: 1660px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+  .contacts_container {
+    margin-bottom: 50px;
+    .constact_header {
+      text-align: center;
+      font-weight: 700;
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+    .contact_online {
+      margin-bottom: 30px;
+      .online_timeline {
+        margin-bottom: 30px;
+        .timeline_header {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: #424551;
+          margin-bottom: 10px;
+        }
+        .timeline_time {
+          color: #424551;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+      .online_connection {
+        .connection_header {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: #424551;
+          margin-bottom: 10px;
+        }
+        .connection_tel {
+          margin-bottom: 15px;
+          .connection_tel_number {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #18d8d1;
+          }
+        }
+        .connection_mail {
+          margin-bottom: 15px;
+          .connection_mail_client {
+            margin-bottom: 2px;
+            &:last-child {
+              margin-top: 12px;
+            }
+            .mail_client_telink {
+              color: #1076da;
+              font-weight: 400;
+              font-size: 20px;
+            }
+            .mail_client_tedesc {
+              color: #424551;
+            }
+          }
+        }
+      }
+    }
+    .connection_offline {
+      .connection_offline_address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0 10px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #424551;
+        margin-bottom: 30px;
+        .offline_address_img {
+          display: block;
+          width: 25px;
+          transform: translate(0px, -4px);
+          height: auto;
+        }
+        .offline_address_header {
+        }
+      }
+      .offline_address_header_ad {
+        padding: 0 10px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #424551;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .offline_contact {
+        display: flex;
+        gap: 20px 40px;
+        flex-wrap: wrap;
+        align-items: center;
+        .offline_timeline {
+          width: calc(50% - 40px);
+          margin-bottom: 15px;
+        }
+        .offline_cxema {
+          width: calc(50% - 40px);
+          .offline_cxema_img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+    .constact_requisite {
+      margin-bottom: 30px;
+      .constact_requisite_title {
+        font-weight: 7 00;
+        font-size: 24px;
+        line-height: 24px;
+        color: #424551;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .constact_requisite_info {
+        width: calc(50% - 40px);
+        .requisite_info_header {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          margin-bottom: 10px;
+          color: #424551;
+          strong {
+            font-weight: 700;
+          }
+        }
+        .requisite_info_desc {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: #424551;
+          &:not(:last-child) {
+            margin-bottom: 10px;
+          }
+          .info_desc_span {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

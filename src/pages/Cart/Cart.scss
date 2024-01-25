@@ -1,0 +1,49 @@
+.slick-track {
+  margin-left: 0;
+  display: flex;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  /* Стилизация ползунка */
+  &::-webkit-scrollbar {
+    height: 3px;
+  }
+
+  &::-webkit-scrollbar::hover {
+    height: 5px;
+  }
+  /* Фон ползунка */
+  &::-webkit-scrollbar-track {
+    background: #c4c4c4;
+  }
+
+  /* Стилизация ползунка */
+  &::-webkit-scrollbar-thumb {
+    background: #404040; /* Цвет ползунка */
+    border-radius: 4px;
+  }
+}
+
+.slick-slide {
+  min-width: 200px !important;
+}
+
+.slick-next,
+.slick-prev {
+  right: -20px;
+}
+.slick-next {
+  top: 40%;
+}
+.slick-prev {
+  top: 41%;
+}
+@media (max-width: 1024px) {
+  .slick-next:before,
+  .slick-prev:before {
+    font-size: 35px;
+  }
+  .slick-next {
+    right: -35px;
+  }
+}

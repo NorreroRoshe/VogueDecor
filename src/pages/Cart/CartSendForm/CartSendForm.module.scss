@@ -1,0 +1,114 @@
+.collab_subscribe {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    // max-width: 1460px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  @media (max-width: 768px) {
+  }
+  @media screen and (min-width: 321px) {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 18px;
+    float: left;
+    margin-right: 20px;
+    font-weight: 700;
+    color: #fff;
+    @media screen and (min-width: 768px) {
+      letter-spacing: 0.5px;
+      margin-top: 9px;
+    }
+  }
+  .collab_subscribe__form {
+    padding: 25px 80px;
+    margin-left: auto;
+    @media (max-width: 466px) {
+      padding: 0;
+    }
+    .collab_subscribe__wrap {
+      display: flex;
+      flex-direction: column;
+      .collab_subscribe__input {
+        line-height: 35px;
+        padding-bottom: 0;
+        padding-top: 0;
+        height: 50px;
+        width: 250px;
+        outline: none;
+        margin-bottom: 15px;
+        // width: 100%;
+        border: 2px solid #000000;
+        overflow: visible;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: 700;
+        &::-webkit-input-placeholder {
+          font-size: 16px;
+          font-weight: 600;
+        }
+        &::-moz-placeholder {
+          font-size: 16px;
+          font-weight: 600;
+        }
+        &::-moz-placeholder {
+          font-size: 16px;
+          font-weight: 600;
+        }
+        &::-moz-placeholder {
+          font-size: 16px;
+          font-weight: 600;
+        }
+        &::-ms-input-placeholder {
+          font-size: 16px;
+          font-weight: 600;
+        }
+        @media (max-width: 466px) {
+          width: 200px;
+          height: 40px;
+        }
+      }
+      .collab_subscribe__btn {
+        display: block;
+        background: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 24px;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    .collab_subscribe__error {
+      display: none;
+      color: #af4d7c;
+      font-size: 14px;
+    }
+  }
+  .after_send {
+    color: #1076da;
+    text-align: right;
+    margin-right: 80px;
+    display: none;
+    @media (max-width: 1000px) {
+      text-align: center;
+    }
+  }
+
+  .after_send_true {
+    display: block;
+  }
+}

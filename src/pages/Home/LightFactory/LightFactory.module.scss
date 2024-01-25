@@ -1,0 +1,158 @@
+.section_lightfactory {
+  background-color: #d6d6d6;
+  height: 470px;
+  margin-bottom: 5px;
+  @media (max-width: 610px) {
+    height: 380px;
+  }
+  @media (max-width: 500px) {
+    height: 220px;
+  }
+  .container {
+    max-width: 1660px;
+    padding: 0 30px;
+    margin: 0 auto;
+    @media (max-width: 420px) {
+      padding: 0 15px;
+    }
+  }
+  .lightfactory_container {
+    height: 100%;
+    .lightfactory_box {
+      display: flex;
+      height: 100%;
+      .box_img {
+        width: 50%;
+        height: 100%;
+      }
+      .box_desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 40px;
+        @media (max-width: 610px) {
+          gap: 25px;
+        }
+        @media (max-width: 500px) {
+          gap: 20px;
+        }
+        .box_desc_title {
+          font-size: 40px;
+          line-height: 1.1;
+          font-weight: 600;
+          letter-spacing: 0em;
+          font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial',
+            sans-serif;
+          width: 88%;
+          max-width: 460px;
+          color: inherit;
+          text-align: center;
+          margin: 0 auto;
+          position: relative;
+          @media (max-width: 1000px) {
+            font-size: 35px;
+          }
+          @media (max-width: 860px) {
+            font-size: 30px;
+          }
+          @media (max-width: 715px) {
+            font-size: 25px;
+          }
+          @media (max-width: 610px) {
+            font-size: 22px;
+          }
+          @media (max-width: 500px) {
+            font-size: 18px;
+          }
+          @media (max-width: 500px) {
+            font-size: 14px;
+            margin-right: 0;
+          }
+          @media (max-width: 360px) {
+            font-size: 13px;
+            margin-right: 0;
+          }
+          @media (max-width: 285px) {
+            font-size: 12px;
+          }
+        }
+        .box_desc_text {
+          font-size: 19px;
+          line-height: 24px;
+          font-weight: 400;
+          letter-spacing: 0.016em;
+          font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial',
+            sans-serif;
+          margin-top: 4px;
+          width: 88%;
+          max-width: 580px;
+          color: inherit;
+          text-align: center;
+          margin: 0 auto;
+          position: relative;
+          span {
+            @media (max-width: 610px) {
+              display: none;
+            }
+          }
+          @media (max-width: 1000px) {
+            font-size: 18px;
+          }
+          @media (max-width: 860px) {
+            font-size: 16px;
+          }
+          @media (max-width: 715px) {
+            font-size: 14px;
+          }
+          @media (max-width: 610px) {
+            font-size: 15px;
+          }
+          @media (max-width: 500px) {
+            font-size: 14px;
+          }
+          @media (max-width: 500px) {
+            margin-right: 0;
+            font-size: 11px;
+            line-height: 15px;
+          }
+          @media (max-width: 285px) {
+            font-size: 9px;
+            line-height: 11px;
+          }
+        }
+        .box_desc_btn {
+          padding: 15px 35px;
+          border-radius: 15px;
+          border: none;
+          background-color: rgb(66, 66, 70);
+          cursor: pointer;
+          font-size: 20px;
+          color: #fdfdfd;
+          @media (max-width: 860px) {
+            font-size: 18px;
+          }
+          @media (max-width: 715px) {
+            font-size: 16px;
+          }
+          @media (max-width: 610px) {
+            font-size: 15px;
+          }
+          @media (max-width: 500px) {
+            font-size: 13px;
+            padding: 10px 30px;
+          }
+          @media (max-width: 500px) {
+            font-size: 11px;
+            padding: 6px 15px;
+          }
+          @media (max-width: 285px) {
+            font-size: 10px;
+            padding: 4px 9px;
+          }
+        }
+      }
+    }
+  }
+}

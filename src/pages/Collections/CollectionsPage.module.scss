@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('../../../public/fonts/ofont.ru_LeoHand.ttf') format('truetype');
+}
+
+
+.container {
+  max-width: 1660px;
+  padding: 0 70px;
+  margin: 0 auto;
+  @media(max-width: 1200px) {
+    padding: 0 45px;
+  }
+  @media(max-width: 1023px) {
+    margin-top: 70px;
+  }
+}
+.brand__container {
+  padding-bottom: 50px;
+  .brand__mt {
+    .brand__title {
+      text-align: center;
+      font-weight: 600;
+      margin: 60px auto 50px;
+      font-size: 45px;
+      font-family: 'MyCustomFont', sans-serif;
+      letter-spacing: 8px;
+    }
+    .brand_desc {
+      max-width: 1121px;
+      margin: 0 auto;
+      margin-top: 50px;
+      border: 1px solid black;
+      border-radius: 18px;
+      padding: 15px 42px;
+      color: #424245;
+      margin-bottom: 20px;
+    }
+  }
+}

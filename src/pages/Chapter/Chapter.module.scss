@@ -1,0 +1,49 @@
+.container {
+  max-width: 1920px;
+  padding: 0 70px;
+  margin: 0 auto;
+  @media (max-width: 1150px) {
+    padding: 0 20px;
+  }
+  // @media (max-width: 1000px) {
+  //   padding: 0 40px;
+  // }
+  // @media (max-width: 565px) {
+  //   padding: 0 20px;
+  // }
+  // @media (max-width: 450px) {
+  //   padding: 0 10px;
+  // }
+}
+.chapter__container {
+  padding-bottom: 50px;
+  .chapter__mt {
+    margin-top: 50px;
+    @media (max-width: 1150px) {
+      margin-top: 30px;
+    }
+    @media (max-width: 1024px) {
+      margin-top: 90px;
+    }
+    @media (max-width: 500px) {
+      margin-top: 70px;
+    }
+    // @media (max-width: 400px) {
+    //   margin-top: 60px;
+    // }
+  }
+}
+
+
+.chapter__mt_bread {
+  // padding-left: 70px;
+  // padding-right: 70px;
+  @media (max-width: 1200px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+}

@@ -1,0 +1,65 @@
+.scrollCustom {
+  &::before {
+    font-family: serif;
+    content: '>';
+    display: block;
+    position: absolute;
+    transform: rotate(270deg);
+    right: 27%;
+    top: -11%;
+    color: white;
+    font-size: 50px;
+  }
+}
+
+//RangeCpmponent
+
+.range-minmax {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.range-min,
+.range-max {
+  text-align: center;
+  color: #878787;
+  border: 1px solid #878787;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 6px 12px;
+  max-width: 95px;
+}
+
+/* Скрываем стрелочки "верх" и "вниз" внутри input[type="number"] */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.example-thumb {
+  background-color: white;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  font-size: 1px;
+  top: -7px;
+  border-radius: 10px;
+}
+
+.example-track {
+  background-color: #d5d4d4; /* Черный цвет линии слайдера */
+  height: 4px; /* Высота линии слайдера */
+  border-radius: 4px;
+}
+
+.example-track-1 {
+  background-color: #515151; /* Черный цвет линии слайдера */
+}

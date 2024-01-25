@@ -1,0 +1,26 @@
+.container {
+  max-width: 1660px;
+  padding: 0 30px;
+  margin: 0 auto;
+  @media (max-width: 1023px) {
+    margin: 85px auto 0;
+  }
+  @media (max-width: 900px) {
+    padding: 0;
+  }
+  @media (max-width: 900px) {
+    padding: 0 5px;
+  }
+}
+
+.product_info_feed {
+  border-top: 1px solid black;
+  padding-top: 40px;
+  padding-bottom : 20px;
+}
+
+.product_info_container_s {
+  @media (max-width: 1023px) {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,579 @@
+.collab_subscribe {
+  .collab_container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    p {
+      font-size: 18px;
+      line-height: 18px;
+      margin-bottom: 18px;
+      float: left;
+      margin-right: 20px;
+      font-weight: 700;
+      color: #fff;
+      @media screen and (min-width: 768px) {
+        letter-spacing: 0.5px;
+        margin-top: 9px;
+      }
+    }
+    .collab_subscribe__form {
+      float: left;
+      .collab_subscribe__wrap {
+        display: block;
+        @media (max-width: 768px) {
+          flex-direction: column;
+        }
+        .collab_subscribe__input {
+          line-height: 38px;
+          padding-bottom: 0;
+          padding-top: 0;
+          height: 40px;
+          outline: none;
+          margin-bottom: 15px;
+          width: 100%;
+          border: 1px solid #c4c4c4;
+          overflow: visible;
+          padding-left: 15px;
+          font-size: 15px;
+          color: #232323;
+          font-weight: 400;
+          border-radius: 4px;
+          @media (max-width: 768px) {
+            margin-bottom: 0;
+            border-bottom: none;
+          }
+          &::-webkit-input-placeholder {
+            font-size: 15px;
+            color: #838282;
+            font-weight: 400;
+          }
+          &::-moz-placeholder {
+            font-size: 15px;
+            color: #838282;
+            font-weight: 400;
+          }
+          &::-moz-placeholder {
+            font-size: 15px;
+            color: #838282;
+            font-weight: 400;
+          }
+          &::-moz-placeholder {
+            font-size: 15px;
+            color: #838282;
+            font-weight: 400;
+          }
+          &::-ms-input-placeholder {
+            font-size: 15px;
+            color: #838282;
+            font-weight: 400;
+          }
+        }
+        .collab_subscribe__btn {
+          background-color: #ffffff;
+          color: #000000;
+          font-size: 12px;
+          text-transform: uppercase;
+          border: none;
+          outline: none;
+          width: 100%;
+          height: 35px;
+          text-align: left;
+          padding-left: 15px;
+          cursor: pointer;
+        }
+      }
+      .collab_subscribe__error {
+        display: none;
+        color: #af4d7c;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.formo_btn {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.formo_btn_wrapp {
+  display: flex;
+  :hover {
+    background: #000;
+    border-color: #000;
+  }
+}
+
+.btn_wrapp_btn {
+  justify-content: center;
+  line-height: 1.5;
+  font-size: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 42px;
+  width: 100%;
+  border-radius: 4px;
+  transition: all .2s;
+  padding: 0 20px;
+  font-weight: 500;
+  outline: none;
+  color: #fff;
+  border: 1px solid #404040;
+  background: #404040;
+}
+
+.wrapp_btn_text {
+  color: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wrapp_contino {
+  box-sizing: border-box;
+  height: 146px;
+  resize: none;
+  padding: 10px;
+  padding-right: 5px;
+  background: #fff;
+  border: 1px solid #c4c4c4;
+  cursor: text;
+  position: relative;
+}
+
+.wrapp_contino_text {
+  top: 10px;
+  color: #989898;
+  font-size: 14px;
+  line-height: 150%;
+  position: absolute;
+  z-index: 1;
+}
+
+.wrapp_contino_closer {
+  color: #404040;
+  height: 12px;
+  width: 12px;
+  opacity: 0;
+  transition: opacity .4s,-webkit-transform .4s;
+  transition: transform .4s,opacity .4s;
+  transition: transform .4s,opacity .4s,-webkit-transform .4s;
+  top: 16px;
+  z-index: 3;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  opacity: 2;
+}
+
+.wrapp_contino_place {
+  cursor: text;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.contino_place_padik {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 1;
+}
+
+.place_padik_text {
+  display: grid;
+  grid-template-columns: 100%;
+  min-height: 100%;
+  cursor: text;
+  height: 100%;
+}
+
+.padik_text_block {
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 18px;
+  min-height: 100px;
+  outline: none;
+  padding-right: 30px;
+}
+
+.padik_text_textar {
+  display: none;
+}
+
+.fora_light {
+  bottom: 0;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  z-index: 2;
+  height: 100%;
+  overflow: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 5px;
+}
+
+.fora_light_end {
+  height: 57.58%;
+  transform: translate3d(0px, 0%, 0px);
+  display: block;
+  background: #c4c4c4;
+  border-radius: 20px;
+  cursor: pointer;
+  opacity: .7;
+  transition: opacity .4s;
+  width: 100%;
+}
+
+.formo_wrapp {
+  &:not(:last-child) {
+    margin-bottom: 23px;
+  }
+}
+
+// Добавленные стили для textarea с кастомным скроллом
+.for_two {
+  position: relative;
+
+  textarea {
+    font-size: 15px;
+    font-family: inherit;
+    box-sizing: border-box;
+    height: 100%;
+    resize: none;
+    padding-left: 15px;
+    padding-right: 30px;
+    padding-top: 10px;
+    background: transparent;
+    border: 1px solid #c4c4c4;
+    cursor: text;
+    position: relative;
+    z-index: 2;
+    border-radius: 4px;
+    width: 100%;
+
+    // Стили для кастомного скролла
+    scrollbar-width: thin;  // Для Firefox
+    scrollbar-color: #c4c4c4 transparent;  // Для Firefox
+    &::-webkit-scrollbar {
+      width: 8px;  // Ширина кастомного скролла
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #c4c4c4;  // Цвет кастомного скролла
+      border-radius: 4px;  // Радиус скролла
+    }
+    &::-webkit-scrollbar-track {
+      background-color: transparent;  // Цвет фона скролла
+    }
+  }
+
+  label {
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 18px;
+    outline: none;
+    padding-right: 30px;
+    position: absolute;
+    left: 17px;
+    top: 14px;
+    color: #838282;
+  }
+
+  svg.wrapp_contino_closer {
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+
+
+// .collab_subscribe {
+//   .collab_container {
+//     margin: 0 auto;
+//     display: flex;
+//     justify-content: center;
+//     p {
+//       font-size: 18px;
+//       line-height: 18px;
+//       margin-bottom: 18px;
+//       float: left;
+//       margin-right: 20px;
+//       font-weight: 700;
+//       color: #fff;
+//       @media screen and (min-width: 768px) {
+//         letter-spacing: 0.5px;
+//         margin-top: 9px;
+//       }
+//     }
+//     .collab_subscribe__form {
+//       float: left;
+//       .collab_subscribe__wrap {
+//         display: block;
+//         @media (max-width: 768px) {
+//           flex-direction: column;
+//         }
+//         .collab_subscribe__input {
+//           line-height: 38px;
+//           padding-bottom: 0;
+//           padding-top: 0;
+//           height: 40px;
+//           outline: none;
+//           margin-bottom: 15px;
+//           width: 100%;
+//           border: 1px solid #c4c4c4;
+//           overflow: visible;
+//           padding-left: 15px;
+//           font-size: 15px;
+//           color: #232323;
+//           font-weight: 400;
+//           border-radius: 4px;
+//           @media (max-width: 768px) {
+//             margin-bottom: 0;
+//             border-bottom: none;
+//           }
+//           &::-webkit-input-placeholder {
+//             font-size: 15px;
+//             // color: #107f8a;
+//             color: #838282;
+//             font-weight: 400;
+//           }
+//           &::-moz-placeholder {
+//             font-size: 15px;
+//             // color: #107f8a;
+//             color: #838282;
+//             font-weight: 400;
+//           }
+//           &::-moz-placeholder {
+//             font-size: 15px;
+//             // color: #107f8a;
+//             color: #838282;
+//             font-weight: 400;
+//           }
+//           &::-moz-placeholder {
+//             font-size: 15px;
+//             // color: #107f8a;
+//             color: #838282;
+//             font-weight: 400;
+//           }
+//           &::-ms-input-placeholder {
+//             font-size: 15px;
+//             // color: #107f8a;
+//             color: #838282;
+//             font-weight: 400;
+//           }
+//         }
+//         .collab_subscribe__btn {
+//           background-color: #ffffff;
+//           color: #000000;
+//           font-size: 12px;
+//           text-transform: uppercase;
+//           border: none;
+//           outline: none;
+//           width: 100%;
+//           height: 35px;
+//           text-align: left;
+//           padding-left: 15px;
+//           cursor: pointer;
+//         }
+//       }
+//       .collab_subscribe__error {
+//         display: none;
+//         color: #af4d7c;
+//         font-size: 14px;
+//       }
+//     }
+//   }
+// }
+
+// .formo_btn {
+//   margin-bottom: 20px;
+//   margin-top: 20px;
+// }
+
+// .formo_btn_wrapp {
+//   display: flex;
+//   :hover {
+//     background: #000;
+//     border-color: #000;
+// }
+// }
+
+// .btn_wrapp_btn {
+//   justify-content: center;
+//   line-height: 1.5;
+//   font-size: 16px;
+//   box-sizing: border-box;
+//   cursor: pointer;
+//   display: flex;
+//   box-sizing: border-box;
+//   cursor: pointer;
+//   display: flex;
+//   align-items: center; 
+//   height: 42px;
+//   width: 100%;
+//   border-radius: 4px;
+//   transition: all .2s;
+//   padding: 0 20px;
+//   font-weight: 500;
+//   outline: none;
+//   color: #fff;
+//   border: 1px solid #404040;
+//   background: #404040;
+// }
+
+// .wrapp_btn_text {
+//   color: inherit;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   white-space: nowrap;
+// }
+
+
+//   .wrapp_contino {
+//     box-sizing: border-box;
+//     height: 146px;
+//     resize: none;
+//     padding: 10px;
+//     padding-right: 5px;
+//     background: #fff;
+//     border: 1px solid #c4c4c4;
+//     cursor: text;
+//     position: relative;
+//   }
+  
+//   .wrapp_contino_text {
+//   top: 10px;
+//   color: #989898;
+//   font-size: 14px;
+//   line-height: 150%;  
+//   position: absolute;
+//   z-index: 1;
+//   }
+  
+//   .wrapp_contino_closer {
+//     color: #404040;
+//     height: 12px;
+//     width: 12px;
+//     opacity: 0;
+//     transition: opacity .4s,-webkit-transform .4s;
+//     transition: transform .4s,opacity .4s;
+//     transition: transform .4s,opacity .4s,-webkit-transform .4s;
+//     top: 16px;
+//     z-index: 2;
+//     cursor: pointer;
+//     position: absolute;
+//     right: 20px;
+//     opacity: 2;
+//   }
+
+//   .wrapp_contino_place {
+//     cursor: text;
+//     height: 100%;
+//     overflow: hidden;
+//     position: relative;
+//     }
+    
+//     .contino_place_padik {
+//     height: 100%;
+//     overflow-x: hidden;
+//     overflow-y: scroll;
+//     position: relative;
+//     z-index: 1;
+//     }
+    
+//     .place_padik_text {
+//     display: grid;
+//     grid-template-columns: 100%;
+//     min-height: 100%;
+//     cursor: text;
+//     height: 100%;
+//     }
+    
+//     .padik_text_block {
+//     box-sizing: border-box;
+//       font-size: 14px;
+//       line-height: 18px;
+//       min-height: 100px;
+//       outline: none;
+//       padding-right: 30px;
+//     }
+    
+//     .padik_text_textar {
+//     display: none;
+//     }
+    
+//     .fora_light {
+//     bottom: 0;
+//     position: absolute;
+//     right: 5px;
+//     top: 0;
+//     z-index: 2;
+//     height: 100%;
+//     overflow: hidden;
+//     -webkit-user-select: none;
+//     user-select: none;
+//     width: 5px;
+//     }
+    
+//     .fora_light_end {
+//     height: 57.58%;
+//     transform: translate3d(0px, 0%, 0px);
+//     display: block;
+//     background: #c4c4c4;
+//     border-radius: 20px;
+//     cursor: pointer;
+//     opacity: .7;
+//     transition: opacity .4s;
+//     width: 100%;
+//     }
+  
+//     .formo_wrapp {
+//       &:not(:last-child) {
+//         margin-bottom: 23px;
+//       }
+//     }
+  
+
+
+
+//     .for_two {
+//       position: relative;
+//       textarea {
+//         box-sizing: border-box;
+//         height: 146px;
+//         resize: none;
+//         padding: 15px;
+//         padding-right: 5px;
+//         background: transparent;
+//         border: 1px solid #c4c4c4;
+//         cursor: text;
+//         position: relative;
+//         z-index: 2;
+//         border-radius: 4px;
+//         width: 100%;
+//       }
+//       label{
+//         box-sizing: border-box;
+//       font-size: 15px;
+//       line-height: 18px;
+//       // min-height: 100px;
+//       outline: none;
+//       padding-right: 30px;
+//       position: absolute;
+//       left: 17px;
+//       top: 12px;
+//       color: #838282;
+//       }
+//     }
+  

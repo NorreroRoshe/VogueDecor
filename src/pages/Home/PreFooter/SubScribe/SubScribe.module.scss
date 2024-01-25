@@ -1,0 +1,95 @@
+.pre_subscribe {
+  padding-top: 26px;
+  padding-bottom: 8px;
+  background-color: #bdb299;
+  min-height: 129px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1660px;
+    padding: 0 30px;
+    margin: 0 auto;
+    @media(max-width: 667px) {
+      width: 100%;
+    }
+    p {
+      letter-spacing: 0.5px;
+      margin-top: 9px;
+      font-size: 16px;
+      line-height: 18px;
+      margin-bottom: 18px;
+      float: left;
+      margin-right: 20px;
+      color: #000;
+      font-weight: 500;
+    }
+    .pre_subscribe__form {
+      margin-bottom: 15px;
+      float: left;
+      @media(max-width: 667px) {
+        width: 100%;
+      }
+      .pre_subscribe__wrap {
+        margin-bottom: 5px;
+        @media(max-width: 667px) {
+          display: flex;
+          flex-direction: column;
+        }
+        .pre_subscribe__input {
+          width: 180px;
+          float: left;
+          margin-bottom: 0;
+          border-right: none;
+          padding-bottom: 0;
+          padding-top: 0;
+          line-height: 35px;
+          outline: none;
+          border: 2px solid #000;
+          height: 35px;
+          padding-left: 15px;
+          font-size: 12px;
+          &:first-child {
+            border-right: none;
+            @media(max-width: 667px) {
+              border-right: 2px solid #000;
+            }
+          }
+          @media(max-width: 667px) {
+            margin-bottom: 5px;
+            width: 100%;
+          }
+        }
+        .pre_subscribe__btn {
+          width: 180px;
+          float: left;
+          transition: all 0.3s ease-in-out;
+          background-color: #000;
+          color: #fff;
+          font-size: 12px;
+          border: none;
+          outline: none;
+          height: 35px;
+          text-align: left;
+          padding-left: 15px;
+          cursor: pointer;
+          @media(max-width: 667px) {
+            width: 100%;
+            border: 1px solid #fff;
+          }
+        }
+      }
+      .pre_subscribe__error {
+        display: none;
+        color: #9e1331;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.pre_subscribe__input::placeholder {
+  color: black;
+  font-weight: 500;
+}

@@ -1,0 +1,66 @@
+.root {
+  li {
+    display: inline-flex;
+  }
+
+  a {
+    display: inline-block;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 42px;
+    border: 1px solid #fe5f1e;
+    border-radius: 30px;
+    margin-right: 10px;
+    // color: #fe5f1e;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #fe5f1e;
+      color: #fff;
+    }
+  }
+}
+
+
+.selected {
+  a {
+    background-color: #fe5f1e;
+    color: #fff;
+  }
+}
+
+
+.paginationWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    button {
+      background-color: transparent;
+      border: none;
+    }
+
+    .pagination_dprev,
+    .pagination_oprev,
+    .pagination_numbers,
+    .pagination_dnext,
+    .pagination_onext {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+
+.pag_select_active {
+  background-color: #0c69c7 !important;
+  border-radius: 50%;
+  padding: 10px 15px;
+  color: #fff;
+}

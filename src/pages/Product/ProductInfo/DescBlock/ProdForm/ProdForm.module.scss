@@ -1,0 +1,124 @@
+.collab_subscribe {
+  padding-bottom: 20px;
+  @media (max-width: 768px) {
+    padding-top: 10px;
+  }
+  .collab_container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    @media screen and (min-width: 768px) {
+      max-width: 1460px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+    @media screen and (min-width: 321px) {
+      padding-right: 15px;
+      padding-left: 5px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 18px;
+      margin-bottom: 18px;
+      float: left;
+      margin-right: 20px;
+      font-weight: 700;
+      color: #fff;
+      @media screen and (min-width: 768px) {
+        letter-spacing: 0.5px;
+        margin-top: 9px;
+      }
+    }
+    .collab_subscribe__form {
+      float: left;
+      width: 60%;
+      margin-right: auto;
+      @media (max-width: 585px) {
+        width: 100%;
+      }
+      .collab_subscribe__wrap {
+        display: flex;
+        flex-direction: column;
+        .collab_subscribe__input {
+          line-height: 35px;
+          padding-bottom: 0;
+          padding-top: 0;
+          height: 35px;
+          outline: none;
+          margin-bottom: 5px;
+          width: 100%;
+          border: 2px solid #000;
+          overflow: visible;
+          padding-left: 8px;
+          font-size: 15px;
+          background: #fff;
+          color: #000;
+          font-weight: 700;
+          margin-right: 5px;
+          @media (max-width: 768px) {
+            border-right: 2px solid #000;
+            margin-bottom: 0;
+            border-bottom: none;
+          }
+          &::-webkit-input-placeholder {
+            background-color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+          }
+          &::-moz-placeholder {
+            font-size: 16px;
+            font-weight: 600;
+          }
+          &::-moz-placeholder {
+            font-size: 16px;
+            font-weight: 600;
+          }
+          &::-moz-placeholder {
+            font-size: 16px;
+            font-weight: 600;
+          }
+          &::-ms-input-placeholder {
+            font-size: 16px;
+            font-weight: 600;
+          }
+        }
+        .collab_subscribe__btn {
+          background-color: #000;
+          color: #fff;
+          font-size: 14px;
+          text-transform: uppercase;
+          border: none;
+          outline: none;
+          width: 100%;
+          height: 35px;
+          text-align: left;
+          cursor: pointer;
+          text-align: center;
+          font-weight: 700;
+        }
+      }
+      .collab_subscribe__error {
+        display: none;
+        color: #af4d7c;
+        font-size: 14px;
+      }
+    }
+  }
+  .after_send {
+    text-align: left;
+    display: none;
+    max-width: 60%;
+    margin-left: 5px;
+    color: green;
+    @media (max-width: 1000px) {
+      text-align: center;
+    }
+  }
+
+  .after_send_true {
+    display: block;
+  }
+}

@@ -1,0 +1,59 @@
+.th_wr {
+  @media(min-width: 1280px) {
+    width: 18rem;
+  }
+  @media(min-width: 1024px) {
+    width: 18rem;
+  }
+  @media(min-width: 950px) {
+    width: 38rem;
+  }
+  @media(min-width: 770px) {
+    width: 32rem;
+  }
+  @media(min-width: 610px) {
+    width: 21rem;
+  }
+  @media(min-width: 520px) {
+    width: 15rem;
+  }
+  @media(min-width: 460px) {
+    width: 12rem;
+  }
+  @media(min-width: 420px) {
+    width: 10rem;
+  }
+  @media(min-width: 00px) {
+    width: 19rem;
+  }
+}
+
+.brandWrapp {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+  align-items: center;
+}
+
+.brandTitle {
+  width: 60%;
+}
+
+.brandImg {
+  height: 100%;
+  display: block;
+  width: 40%;
+}
+
+.brandHeader {
+  margin-bottom: 45px !important;
+}
+
+
+.tab_wrapp {
+  @media (max-width: 1023px) {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+}

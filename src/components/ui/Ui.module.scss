@@ -1,0 +1,75 @@
+.logo_main {
+  display: flex;
+  font-family: 'GFSDidot', sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  color: #1C5F3C;
+  img{
+  margin-left: 10px;
+  width: 32px;
+  @media(max-width: 550px) {    
+    width: 25px;
+    margin-top: 4px;
+    height: 24px;
+    margin-left: 5px;
+  }
+  }
+  span{
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  margin-left: 10px;
+  @media(max-width: 550px) {
+    margin-left: 5px;
+  }
+  }
+  @media(max-width: 780px) {
+    font-size: 37px
+  }
+  @media(max-width: 550px) {
+    font-size: 30px
+  }
+  @media(max-width: 440px) {
+    font-size: 26px
+  }
+}
+
+
+.rootClassNamePadding {
+  padding-left: 70px;
+  padding-right: 70px;
+  @media(max-width: 1200px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media(max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+}
+
+.not_buttonGroupClassName,
+.yes_buttonGroupClassName {
+  &:hover {
+    background-color: #1C5F3C;
+  }
+}
+
+.iz_header {
+  font-weight: 500;
+  // font-size: 31px;
+  font-size: 27px;
+  @media(max-width: 1365px) {
+    // font-size: 28px;
+    font-size: 25px;
+  }
+  @media(max-width: 1150px) {
+    // font-size: 25px;
+    font-size: 23px;
+  }
+  @media(max-width: 800px) {
+    // font-size: 23px;
+    font-size: 21px;
+  }
+}

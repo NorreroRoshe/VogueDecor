@@ -1,0 +1,29 @@
+.slick-track {
+  width: 2500px ;
+  opacity: 1;
+  transform: translate3d(-500px, 0px, 0px) ;
+}
+
+.icon_posle {
+  display: none;
+  @media(max-width: 500px) {
+    display: block;
+    background: url('../assets/img/free-icon-ascending-sort-7183242.png') center no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}
+
+.icon_pered {
+  @media(max-width: 500px) {
+    display: none;
+  }
+}
+
+.icon_posle_doi {
+  @media(max-width: 450px) {
+    font-size: 13px;
+  }
+}

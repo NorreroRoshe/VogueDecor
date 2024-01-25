@@ -1,0 +1,43 @@
+.section_collections {
+  margin-top: 35px;
+  @media (max-width: 1200px) {
+    margin-top: 0px;
+  }
+  @media (max-width: 1024px) {
+    margin-top: 85px;
+  }
+  @media (max-width: 565px) {
+    margin-top: 70px;
+  }
+  .container {
+    max-width: 1660px;
+    padding: 0 70px;
+    margin: 0 auto;
+    @media (max-width: 1200px) {
+      padding: 0 45px;
+    }
+    @media (max-width: 565px) {
+      padding: 0 25px;
+    }
+    @media (max-width: 220px) {
+      padding: 0 10px;
+    }
+  }
+  .collections_container {
+    margin-bottom: 50px;
+    .collections_header {
+      text-align: center;
+      font-weight: 700;
+      font-size: 32px;
+      margin-bottom: 30px;
+      @media (max-width: 920px) {
+        margin-bottom: 5px;
+        font-size: 29px;
+      }
+      @media (max-width: 660px) {
+        font-size: 25px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
